@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+
+# Project Specific
+football_analysis-main/models/
+football_analysis-main/uploads/
+football_analysis-main/input_videos/
+football_analysis-main/static/output_videos/
+runs/
+stubs/*.pkl
+
+# Large Files
+*.mp4
+*.avi
+*.pt
+*.part

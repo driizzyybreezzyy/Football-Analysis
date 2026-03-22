@@ -1,0 +1,15 @@
+# --- Web Framework ---
+Flask
+
+# --- Core AI & Computer Vision ---
+ultralytics
+supervision
+opencv-python
+
+# --- Scientific & ML Libraries ---
+numpy
+pandas
+scikit-learn
+
+# --- YouTube Downloader ---
+yt-dlp
