@@ -7,13 +7,13 @@ __pycache__/
 # Project Specific
 football_analysis-main/models/
 football_analysis-main/uploads/
-football_analysis-main/input_videos/
-football_analysis-main/static/output_videos/
 runs/
-stubs/*.pkl
 
-# Large Files
-*.mp4
-*.avi
+# Large Files (>100MB or large binaries)
 *.pt
 *.part
+
+# Keep ignoring large videos but allow analysis artifacts
+football_analysis-main/static/output_videos/*.mp4
+football_analysis-main/static/output_videos/*.avi
+football_analysis-main/input_videos/*.mp4
